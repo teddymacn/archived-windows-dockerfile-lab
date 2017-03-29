@@ -8,5 +8,5 @@ RUN powershell -Command "expand-archive -Path 'c:\test_folder.zip' -DestinationP
 ENTRYPOINT ["cmd", "/c", "dir"]
 
 #to build, execute: docker build -t unzip .
-#to override CMD, execute: docker run --rm unzip
+#to run CMD, execute: docker run --rm unzip
 

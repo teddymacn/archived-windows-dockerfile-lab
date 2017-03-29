@@ -18,7 +18,7 @@ RUN echo 1 \
 ENTRYPOINT ["cmd", "/c", "dir"]
 
 #to build, execute: docker build -t merge_and_reduce_run .
-#to override CMD, execute: docker run --rm merge_and_reduce_run
+#to run CMD, execute: docker run --rm merge_and_reduce_run
 
 #references:
 #http://stackoverflow.com/questions/8055371/how-to-run-two-commands-in-one-line-in-windows-cmd
