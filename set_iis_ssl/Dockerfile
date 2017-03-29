@@ -17,3 +17,6 @@ ENTRYPOINT ["C:\\SetSSLAndStart.cmd"]
 
 #to build, execute: docker build -t set_iis_ssl .
 #to run, execute: docker run --rm -e "SSL_PASS=test" -p 443:443 set_iis_ssl
+
+#references
+#https://weblog.west-wind.com/posts/2016/Jun/23/Use-Powershell-to-bind-SSL-Certificates-to-an-IIS-Host-Header-Site
